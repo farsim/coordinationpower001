@@ -1,0 +1,133 @@
+/* 
+    Document   : style.css
+    Created on : Nov 30, 2012, 7:38:01 PM
+    Author     : sky labs
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+#header{
+    height: 130px;
+    background-color: #888888;
+}
+
+#header h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#footer{
+    height: 30px;
+    background-color: #888888;
+}
+
+#loginBox{
+    border: 1px solid gray;
+    width: 329px;
+    margin: 10px auto;
+    padding: 20px 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #000000;
+}
+
+#loginBox h2{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+p.error{
+    color: red;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+
+form input[type="submit"]{
+    width: 100px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+#content{
+    width: 1000px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #000000;
+    padding: 10px;
+}
+
+#content h2{
+    border-bottom: 1px solid gray;
+    text-transform: capitalize;
+}
+
+#agendaList{
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: inset 0 0 3px #000000;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+#customers
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#customers td, #customers th 
+{
+font-size:1em;
+border:1px solid #D3DCE3;
+padding:3px 7px 2px 7px;
+}
+#customers th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#D3DCE3;
+color:#ffffff;
+}
+#customers tr.alt td 
+{
+color:#000000;
+background-color:#E5E5E5;
+}
+#createMeeting{
+    text-decoration: none;
+    border: 1px solid #D3DCE3;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: #D3DCE3;
+    color: #000000;
+}
+
+#createMeeting:hover{
+    box-shadow: 0 0 3px #F0B20F;
+}
